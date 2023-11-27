@@ -1,8 +1,8 @@
 const { task } = require("hardhat/config");
 require("dotenv").config()
 const { BigNumber } = require("ethers");
-const distributor = require("./distributor")
-const arb = require("./arb")
+const distributor = require("./abi/distributor")
+const arb = require("./abi/arb")
 
 const {PRIVATE_KEYS, ARB_PROVIDER, ETH_PROVIDER} = process.env
 

@@ -32,10 +32,17 @@ module.exports = {
         mnemonic: "obscure satoshi lecture culture lady pattern fog shoe emerge step wonder sword"
       }
     },
+    // hardhat: {
+    //   forking: {
+    //     url: `https://eth-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
+    //     blockNumber: 18000000
+    //   }
+    // },
     hardhat: {
+      chainId: 56,
       forking: {
-        url: `https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
-        blockNumber: 17342219
+        url: "https://bsc-dataseed.binance.org/",
+        // blockNumber: 32000000,
       }
     }
   },
